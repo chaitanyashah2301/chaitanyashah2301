@@ -1,16 +1,36 @@
-## Hi there 👋
+# Hey, I'm Chaitanya 👋
 
-<!--
-**chaitanyashah2301/chaitanyashah2301** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Full-Stack Developer  
+Computer Science Student  
+Building projects and learning 
 
-Here are some ideas to get you started:
+###  Tech Stack
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Languages:**  
+Java · C · JavaScript · Python · SQL · ABAP
+
+**Web:**  
+React · Node.js · Express · Django · HTML · CSS
+
+**Tools:**  
+Git · GitHub · PostgreSQL · Linux
+
+###  What I'm Building
+
+-  **Event Management API** — REST API built with Node.js & Express
+-  **Spotify Analytics Dashboard** — exploring music data with Django
+-  **Chrome Extension** — JavaScript-based productivity/logging project
+-  Learning **ABAP Cloud, RAP & Fiori**
+
+###  Currently Learning
+
+- Full-stack development
+- Backend architecture & REST APIs
+- PostgreSQL
+- System design fundamentals
+- ABAP Cloud / SAP development
+
+### 📫 Connect
+
+[GitHub](https://github.com/chaitanyashah2301)
+[LinkedIn](https://www.linkedin.com/in/chaitanya-shah-a2853b401/)

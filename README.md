@@ -1,36 +1,23 @@
-# Hey, I'm Chaitanya 👋
+<div align="center">
+  <img src="assets/fastfetch.svg" alt="fastfetch" width="100%">
+</div>
 
-Full-Stack Developer  
-Computer Science Student  
-Building projects and learning 
+<br>
 
-###  Tech Stack
+</div>
 
-**Languages:**  
-Java · C · JavaScript · Python · SQL · ABAP
+<br>
 
-**Web:**  
-React · Node.js · Express · Django · HTML · CSS
+## Connect With Me
 
-**Tools:**  
-Git · GitHub · PostgreSQL · Linux
+<div align="center">
 
-###  What I'm Building
+<a href="https://github.com/chaitanyashah2301"><img src="https://img.shields.io/badge/GitHub-chaitanyashah2301-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+<a href="https://www.linkedin.com/in/chaitanyashahh/"><img src="https://img.shields.io/badge/LinkedIn-Chaitanya%20Shah-0A66C2?style=for-the-badge" alt="LinkedIn"></a>
+<a href="mailto:chaitanyashah2301@gmail.com"><img src="https://img.shields.io/badge/Email-chaitanyashah2301%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
 
--  **Event Management API** — REST API built with Node.js & Express
--  **Spotify Analytics Dashboard** — exploring music data with Django
--  **Chrome Extension** — JavaScript-based productivity/logging project
--  Learning **ABAP Cloud, RAP & Fiori**
+<br><br>
 
-###  Currently Learning
+<sub>Always building. Always learning.</sub>
 
-- Full-stack development
-- Backend architecture & REST APIs
-- PostgreSQL
-- System design fundamentals
-- ABAP Cloud / SAP development
-
-### 📫 Connect
-
-[GitHub](https://github.com/chaitanyashah2301)
-[LinkedIn](https://www.linkedin.com/in/chaitanya-shah-a2853b401/)
+</div>

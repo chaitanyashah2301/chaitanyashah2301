@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="432" viewBox="0 0 820 432" font-family="'SF Mono','Fira Code',Consolas,'DejaVu Sans Mono',monospace" font-size="14">
+  <defs>
+    <linearGradient id="logo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7dcfff"/>
+      <stop offset="55%" stop-color="#7aa2f7"/>
+      <stop offset="100%" stop-color="#bb9af7"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <filter id="dotglow" x="-300%" y="-300%" width="700%" height="700%">
+      <feGaussianBlur stdDeviation="3"/>
+    </filter>
+  </defs>
+
+  <!-- window -->
+  <rect width="820" height="432" rx="12" fill="#1a1b26"/>
+  <rect width="820" height="38" rx="12" fill="#24283b"/>
+  <rect y="26" width="820" height="12" fill="#24283b"/>
+  <circle cx="24" cy="19" r="6" fill="#ff5f56"/>
+  <circle cx="46" cy="19" r="6" fill="#ffbd2e"/>
+  <circle cx="68" cy="19" r="6" fill="#27c93f"/>
+  <text x="410" y="24" text-anchor="middle" fill="#a9b1d6">chaitanya@github:~$ fastfetch</text>
+
+  <!-- logo: big gradient C -->
+  <g>
+    <!-- pulsing glow -->
+    <path d="M 178.6 170 A 70 70 0 1 0 178.6 260" fill="none" stroke="url(#logo)" stroke-width="34" stroke-linecap="round" opacity="0.45" filter="url(#glow)">
+      <animate attributeName="opacity" values="0.25;0.7;0.25" dur="3s" repeatCount="indefinite"/>
+    </path>
+    <!-- main arc -->
+    <path d="M 178.6 170 A 70 70 0 1 0 178.6 260" fill="none" stroke="url(#logo)" stroke-width="30" stroke-linecap="round"/>
+    <path d="M 178.6 170 A 70 70 0 1 0 178.6 260" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.18" transform="translate(-6 -6)"/>
+
+    <!-- scanning dot -->
+    <g>
+      <circle r="9" fill="#ffffff" opacity="0.8" filter="url(#dotglow)"/>
+      <circle r="4.5" fill="#ffffff"/>
+      <animateMotion dur="4s" repeatCount="indefinite" calcMode="linear" keyPoints="0;1;0" keyTimes="0;0.5;1" path="M 178.6 170 A 70 70 0 1 0 178.6 260"/>
+    </g>
+  </g>
+
+  <!-- header -->
+  <text x="250" y="70" fill="#9ece6a" font-weight="bold">chaitanya<tspan fill="#a9b1d6">@</tspan><tspan fill="#7dcfff">github</tspan></text>
+  <text x="250" y="88" fill="#565f89">────────────────</text>
+
+  <!-- ABOUT ME -->
+  <text x="250" y="120"><tspan fill="#565f89">── </tspan><tspan fill="#bb9af7" font-weight="bold">About Me</tspan><tspan fill="#565f89"> ────────────────────────────────────────────</tspan></text>
+  <g font-weight="bold">
+    <text x="250" y="144" fill="#bb9af7">Studying</text>
+    <text x="250" y="168" fill="#ff9e64">Learning</text>
+  </g>
+  <g fill="#565f89">
+    <text x="340" y="144">❯</text><text x="340" y="168">❯</text>
+  </g>
+  <g fill="#c0caf5">
+    <text x="360" y="144">Computer Science</text>
+    <text x="360" y="168">Backend Design · REST · ABAP Cloud / RAP / Fiori</text>
+  </g>
+
+  <!-- TECH STACK -->
+  <text x="250" y="208"><tspan fill="#565f89">── </tspan><tspan fill="#7dcfff" font-weight="bold">Tech Stack</tspan><tspan fill="#565f89"> ──────────────────────────────────────────</tspan></text>
+  <g font-weight="bold">
+    <text x="250" y="232" fill="#9ece6a">Langs</text>
+    <text x="250" y="256" fill="#e0af68">Web</text>
+    <text x="250" y="280" fill="#7dcfff">Tools</text>
+  </g>
+  <g fill="#565f89">
+    <text x="340" y="232">❯</text><text x="340" y="256">❯</text><text x="340" y="280">❯</text>
+  </g>
+  <g fill="#c0caf5">
+    <text x="360" y="232">Java · C · JavaScript · Python · SQL · ABAP</text>
+    <text x="360" y="256">React · Node.js · Express · Django · HTML · CSS</text>
+    <text x="360" y="280">Git · GitHub · PostgreSQL · Linux</text>
+  </g>
+
+  <!-- SOCIALS -->
+  <text x="250" y="312"><tspan fill="#565f89">── </tspan><tspan fill="#9ece6a" font-weight="bold">Socials</tspan><tspan fill="#565f89"> ─────────────────────────────────────────────</tspan></text>
+  <g font-weight="bold">
+    <text x="250" y="336" fill="#7aa2f7">GitHub</text>
+    <text x="250" y="360" fill="#bb9af7">LinkedIn</text>
+  </g>
+  <g fill="#565f89">
+    <text x="340" y="336">❯</text><text x="340" y="360">❯</text>
+  </g>
+  <g fill="#c0caf5">
+    <text x="360" y="336">github.com/chaitanyashah2301</text>
+    <text x="360" y="360">linkedin.com/in/chaitanyashahh/</text>
+  </g>
+
+  <!-- palette: shimmering wave -->
+  <g>
+    <rect x="250" y="390" width="30" height="16" rx="3" fill="#f7768e"><animate attributeName="opacity" values="0.35;1;0.35" dur="3.2s" begin="0s" repeatCount="indefinite"/></rect>
+    <rect x="284" y="390" width="30" height="16" rx="3" fill="#ff9e64"><animate attributeName="opacity" values="0.35;1;0.35" dur="3.2s" begin="0.3s" repeatCount="indefinite"/></rect>
+    <rect x="318" y="390" width="30" height="16" rx="3" fill="#e0af68"><animate attributeName="opacity" values="0.35;1;0.35" dur="3.2s" begin="0.6s" repeatCount="indefinite"/></rect>
+    <rect x="352" y="390" width="30" height="16" rx="3" fill="#9ece6a"><animate attributeName="opacity" values="0.35;1;0.35" dur="3.2s" begin="0.9s" repeatCount="indefinite"/></rect>
+    <rect x="386" y="390" width="30" height="16" rx="3" fill="#7dcfff"><animate attributeName="opacity" values="0.35;1;0.35" dur="3.2s" begin="1.2s" repeatCount="indefinite"/></rect>
+    <rect x="420" y="390" width="30" height="16" rx="3" fill="#7aa2f7"><animate attributeName="opacity" values="0.35;1;0.35" dur="3.2s" begin="1.5s" repeatCount="indefinite"/></rect>
+    <rect x="454" y="390" width="30" height="16" rx="3" fill="#bb9af7"><animate attributeName="opacity" values="0.35;1;0.35" dur="3.2s" begin="1.8s" repeatCount="indefinite"/></rect>
+    <rect x="488" y="390" width="30" height="16" rx="3" fill="#c0caf5"><animate attributeName="opacity" values="0.35;1;0.35" dur="3.2s" begin="2.1s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>
